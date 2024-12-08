@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("./input.csv")
+	file, err := os.Open("./rows.csv")
 
 	if err != nil {
 		log.Fatal("Could not open input file.")
